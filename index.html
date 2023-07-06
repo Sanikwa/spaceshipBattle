@@ -3,12 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width= 
-    , initial-scale=1.0">*
+    , initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
-    link rel= "stylesheet" href= "style.css">
+    <script defer src="index.js"></script>
+    <link rel= "stylesheet" href= "index.css">
 </head>
-<body>
+
+<body id="wrapper">
     
+    <h1 id="page-title"> Save The Universe</h1>
+    <div id="gameBoard">
+        <div id="maverick">
+            <img src="image/USS_Ship.png" alt="Player ship called the Maverick" id="ship">
+            <figcaption> The Maverick </figcaption>
+            
+        </div>
+
+        <div id=" enemy ship">
+            <img src="image/enemy_ship.png" alt=" Enemy ship 6 in all" id="untouched">
+            <img src="image/enemy_ship_dead.png" alt=" Enemy ship 6 in all destroyed" id="destroyed">
+            <figcaption><strong>Enemy ship 6 in all</strong></figcaption>
+        </div>
+    </div>
+        <div id="start-message">
+            <button id="start-game">Start Battle</button>
+            <p id="messageToEarthlings"> Press start to begin the game! Try to defeat the Aliens and their 6 ships using the Maverick
+            </p>
+   
+        </div>
+
+<button id="restartGame">Restart Game </button>
+
 </body>
 </html>

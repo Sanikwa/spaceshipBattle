@@ -1,0 +1,45 @@
+#wrapper{
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    background-image:url("https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3NwYWNlLXNtZWxsLTIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=");
+    background-repeat: no-repeat;
+    background-size:100% ;
+    color: rgb(244, 167, 14);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#page-title{
+        color: rgb(47, 61, 255);
+        font-weight: bolder;
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+
+    }
+    #start-game{
+        color: rgb(236, 6, 6);
+        background-color: rgb(83, 149, 149);
+        height: 75px;
+        font-size: 50px;
+        border-radius: 10%;
+        
+    }
+
+#gameBoard{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#destroyed{
+    display: none;
+}
+
+#start-message{
+    text-align: center;
+}
+
+#restartGame{
+    color:black
+}
